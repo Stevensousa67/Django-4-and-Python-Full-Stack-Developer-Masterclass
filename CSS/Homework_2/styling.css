@@ -1,0 +1,19 @@
+/* Author: Steven Sousa - Date: Apr 18 2023
+TASK: Fill the css file "styling.css" so that all div elements have:
+Orange background
+Blue text color
+A dashed border with a width of 20
+Second to that, make sure that all spans have red text color.
+Then fill the HTML file "index.html" so that it contains at least 2 divs and one span element.
+ */
+
+div{
+    background-color: orange;
+    color: blue;
+    border-width: 20px;
+    border-style: dashed;
+}
+
+span{
+    color:red;
+}
