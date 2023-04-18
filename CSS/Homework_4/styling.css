@@ -1,0 +1,17 @@
+/* Author: Steven Sousa - Date: Apr 18 2023
+TASK: Fill "styling.css" such that all h1 headings use Arial, all paragraphs have font size 1.
+Additionally create an id called small to reduce the font size to 0.5.
+Fill "index.html", such that it contains at least one h1 heading, one paragraph and some text to which you apply small
+(please use a div container). */
+
+#small{
+    font-size: 0.5em;
+}
+
+p{
+    font-size: 1em;
+}
+
+h1{
+    font-family: Arial;
+}
