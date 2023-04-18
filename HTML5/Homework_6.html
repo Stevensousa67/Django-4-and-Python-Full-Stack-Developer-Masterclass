@@ -1,0 +1,71 @@
+<!-- Author: Steven Sousa - Date: Apr 18, 2023 - Homework 5
+TASK: In this exercise you will extend the order form for the previously defined online shop.
+Please implement the following forms:
+
+Name
+Surname
+Address
+E-Mail
+Coupon
+Create Account (Yes or No). Please use radio boxes for this. Make sure that you cannot select both at the same time!
+Order Experience (1-5). Please use a select box for this.
+Comments.
+
+Don't forget the submit button. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 5</title>
+</head>
+
+<body>
+<form>
+
+    <label for="name">Name:</label>
+    <input id="name" name="name" type="text"><br>
+
+    <label for="surname">Surname:</label>
+    <input id="surname" name="surname" type="text"><br>
+
+    <label for="address">Address:</label>
+    <input id="address" name="address" type="text"><br>
+
+    <label for="email">Email:</label>
+    <input id="email" name="email" type="email"><br>
+
+    <label for="coupon">Coupon:</label>
+    <input id="coupon" name="coupon" type="text"><br>
+
+    <p>Would you like to create an account?</p>
+    <label for="create">Yes</label>
+    <input id="create" name="create" type="radio" value="yes"><br>
+
+    <label for="dont_create">No</label>
+    <input id="dont_create" name="create" type="radio" value="no"><br>
+
+    <p>Rate your service from 1-5 (1 being the worst and 5 being the best) </p>
+    <label>
+        <select name="stars">
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+        </select>
+    </label>
+
+    <p>Comments?</p>
+    <label>
+        <textarea cols=50 id="" name="" rows=10></textarea>
+    </label>
+
+    <br><br>
+    <input type="submit">
+
+</form>
+</body>
+
+</html>
